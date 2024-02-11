@@ -4,29 +4,29 @@ import * as gameServices from '../services/gameService';
 import { HTTPException } from 'hono/http-exception';
 
 export function getGames(c: Context) {
-  const { field = 'id', order = 'asc' }: QueryParams = c.req.query();
-  const games = gameServices.getGamesSortedByField(field, order);
-  return c.json(games);
+	const { field = 'id', order = 'asc' }: QueryParams = c.req.query();
+	const games = gameServices.getGamesSortedByField(field, order);
+	return c.json(games);
 }
 
 export function getSingleGame(c: Context) {
-  const id = +c.req.param('id');
-  const game = gameServices.getGameById(id);
+	const id = +c.req.param('id');
+	const game = gameServices.getGameById(id);
 
-  if (!game) throw new HTTPException(404, { message: 'Game not found' });
+	if (!game) throw new HTTPException(404, { message: 'Game not found' });
 
-  return c.json(game);
+	return c.json(game);
 }
 
 export function searchGamesByName(c: Context) {
-  const { query } = c.req.query();
+	const { query } = c.req.query();
 
-  if (!query) return c.json(gameServices.getAllGames());
+	if (!query) return c.json(gameServices.getAllGames());
 
-  const matchingGames = gameServices.searchGamesByName(query);
+	const matchingGames = gameServices.searchGamesByName(query);
 
-  if (!matchingGames.length)
-    throw new HTTPException(404, { message: 'Game not found' });
+	if (!matchingGames.length)
+		throw new HTTPException(404, { message: 'Game not found' });
 
-  return c.json(matchingGames);
+	return c.json(matchingGames);
 }
