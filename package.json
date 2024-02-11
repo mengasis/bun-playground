@@ -1,7 +1,10 @@
 {
   "name": "bun-playground",
+  "version": "1.0.0",
   "module": "app.ts",
   "type": "module",
+  "author": "Manuel Venegas",
+  "license": "MIT",
   "scripts": {
     "dev": "bun run --hot src/app.ts",
     "format": "bunx @biomejs/biome format src --write",
