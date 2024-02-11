@@ -3,12 +3,17 @@
   "module": "app.ts",
   "type": "module",
   "scripts": {
-    "start": "bun run app.ts"
+    "dev": "bun run --hot src/app.ts"
   },
   "devDependencies": {
-    "@types/bun": "latest"
+    "@types/bun": "^1.0.5"
   },
   "peerDependencies": {
     "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "hono": "^4.0.1",
+    "pino": "^8.18.0",
+    "pino-pretty": "^10.3.1"
   }
 }

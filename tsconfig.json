@@ -1,10 +1,12 @@
 {
   "compilerOptions": {
+    "baseUrl": "./src",
     "lib": ["ESNext"],
     "target": "ESNext",
     "module": "ESNext",
     "moduleDetection": "force",
     "jsx": "react-jsx",
+    "jsxImportSource": "hono/jsx",
     "allowJs": true,
 
     /* Bundler mode */
