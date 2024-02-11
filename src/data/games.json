@@ -1,0 +1,112 @@
+[
+  {
+    "id": 1,
+    "name": "Catan",
+    "min_players": 3,
+    "max_players": 4,
+    "duration": "60-90 minutes",
+    "category": "Strategy",
+    "release_year": 1995,
+    "description": "Catan is a strategy board game where players compete to colonize an island, trade resources, and build settlements and cities.",
+    "popularity": 8
+  },
+  {
+    "id": 2,
+    "name": "Carcassonne",
+    "min_players": 2,
+    "max_players": 5,
+    "duration": "30-45 minutes",
+    "category": "Tile Placement",
+    "release_year": 2000,
+    "description": "Carcassonne is a tile-placement board game where players build a medieval landscape with cities, roads, fields, and monasteries.",
+    "popularity": 7
+  },
+  {
+    "id": 3,
+    "name": "Ticket to Ride",
+    "min_players": 2,
+    "max_players": 5,
+    "duration": "30-60 minutes",
+    "category": "Train Game",
+    "release_year": 2004,
+    "description": "Ticket to Ride is a railway-themed board game where players collect train cards to claim railway routes connecting cities across the map.",
+    "popularity": 9
+  },
+  {
+    "id": 4,
+    "name": "Pandemic",
+    "min_players": 2,
+    "max_players": 4,
+    "duration": "45 minutes",
+    "category": "Cooperative",
+    "release_year": 2008,
+    "description": "Pandemic is a cooperative board game where players work together to prevent global outbreaks of diseases and find cures before it's too late.",
+    "popularity": 8
+  },
+  {
+    "id": 5,
+    "name": "Dominion",
+    "min_players": 2,
+    "max_players": 4,
+    "duration": "30 minutes",
+    "category": "Deck-building",
+    "release_year": 2008,
+    "description": "Dominion is a deck-building card game where players use a random set of kingdom cards to construct their decks and gain victory points.",
+    "popularity": 7
+  },
+  {
+    "id": 6,
+    "name": "Splendor",
+    "min_players": 2,
+    "max_players": 4,
+    "duration": "30 minutes",
+    "category": "Card Drafting",
+    "release_year": 2014,
+    "description": "Splendor is a game of chip-collecting and card development. Players use gem tokens to buy development cards and attract the attention of nobles.",
+    "popularity": 8
+  },
+  {
+    "id": 7,
+    "name": "7 Wonders",
+    "min_players": 3,
+    "max_players": 7,
+    "duration": "30 minutes",
+    "category": "Card Game",
+    "release_year": 2010,
+    "description": "7 Wonders is a card drafting game where players build civilizations by drafting cards that represent various structures, wonders, and military developments.",
+    "popularity": 9
+  },
+  {
+    "id": 8,
+    "name": "Codenames",
+    "min_players": 2,
+    "max_players": 8,
+    "duration": "15 minutes",
+    "category": "Word Game",
+    "release_year": 2015,
+    "description": "Codenames is a word-based party game where players give and guess clues to uncover the identities of their team's agents while avoiding the opposing team's agents.",
+    "popularity": 8
+  },
+  {
+    "id": 9,
+    "name": "Dixit",
+    "min_players": 3,
+    "max_players": 6,
+    "duration": "30 minutes",
+    "category": "Party Game",
+    "release_year": 2008,
+    "description": "Dixit is a party game where players use imaginative and abstract illustrations to communicate and guess each other's cards.",
+    "popularity": 9
+  },
+  {
+    "id": 10,
+    "name": "Monopoly",
+    "min_players": 2,
+    "max_players": 8,
+    "duration": "60-180 minutes",
+    "category": "Classic",
+    "release_year": 1935,
+    "description": "Monopoly is a classic board game where players buy, sell, and trade properties, aiming to bankrupt their opponents by monopolizing the board.",
+    "popularity": 7
+  }
+]
